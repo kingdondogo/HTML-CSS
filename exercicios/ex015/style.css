@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {color: blue;}
+h2 {color: green;}
+
+p {font: oblique 100 2em serif; }
+/* shorthand font 
+
+        - foont-style -> font-weight - font-size -> font-family */
+
+
+
+
+/*p {color: purple;font-family: fantasy;font-size: 150%;} */
+body {background-color: red;}

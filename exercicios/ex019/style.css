@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+em HTML é id = em CSS é #
+em HTML é class = em CSS é .
+*/
+body {background-color: yellow;}
+main {
+    background-color: rgba(255, 21, 0, 0.916);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.579);
+    width: 1000px;
+    padding: 10px; 
+    margin: auto;
+
+}
+
+h1 {color: rgb(11, 59, 11);text-align: center;}
+
+h2 {color: rgb(77, 90, 77);}
+.basico {color: red;text-align: center;font-family: fantasy;
+}
+.intermediario {color: green;text-align: center;font-family: fantasy;}
+.avancado {color: blue;text-align: center;font-family: fantasy;}
+
+#principal {color: violet;text-align: center;background-color: black;}
+#principal2 {color: violet;text-align: center;background-color: black;}
+
+#principal2:hover {background-color: blue;}
