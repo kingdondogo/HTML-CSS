@@ -8,6 +8,10 @@
     font-size: 1em;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
 :root {
 
     --fonte-texto: "Sriracha", cursive;
@@ -18,39 +22,87 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
-h1 {
-    font-size: 100px;
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
     margin-bottom: 15px;
     font-family: var(--fonte-titulo);
+    font-size: 15vw;
 }
 
-h2 {
-    font-size: small;
-    margin-bottom: 30px;
-}
-
-
-p {
-    font-family: var(--fonte-texto);
-    font-size: 25px;
-    
-}
-
+header > p {
+    padding-bottom: 50px;
+ }
 
 .img1 { background-image: url(imagens/background001.jpg);
-        background-attachment: fixed;}
-.img2 { background-image: url(imagens/background002.jpg);}
-
+        background-attachment: fixed;
+        background-position: center right;}
+.img2 { background-image: url(imagens/background002.jpg);
+        background-attachment: fixed;
+        background-position: center right;}
+section p {
+    padding-bottom: 1em;
+}
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte-texto);
     font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.img1 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    background-size: cover;
+    }
+section.img2 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    background-size: cover;
+
+}
+section.img1 > p {
+    background-color: rgba(0, 0, 0, 0.386);
+    width: 60vw;
+    padding-left: 5px;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.488);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.352);
+    border-radius: 5px;
+    
+}
+section.img2 > p {
+    background-color: rgba(0, 0, 0, 0.386);
+    width: 60vw;
+    padding-left: 5px;
+    text-shadow: 2px 1px 0px rgba(0, 0, 0, 0.482);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.352);
+    border-radius: 5px;
+    
+}
+ a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover { 
+    text-decoration: underline;}
+
+footer {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    text-align: center;
 }
